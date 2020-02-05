@@ -1,0 +1,23 @@
+
+server:
+  port: 8080
+student:
+  name: sunweipo
+  age: 23
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/testmydb?characterEncoding=UTF-8&serverTimezone = GMT&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapping.xml
+  type-aliases-package: com.sun.testprojectforjob.entity
