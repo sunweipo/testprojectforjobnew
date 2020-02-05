@@ -52,7 +52,7 @@ public class UserController {
         if (user==null){
             return "redirect:login";
         }
-        //System.out.println("========="+user.toString());
+        System.out.println("========="+user.toString());
         return "hello2";
     }
 }
