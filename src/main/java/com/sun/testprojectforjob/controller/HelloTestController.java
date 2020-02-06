@@ -42,4 +42,9 @@ public class HelloTestController {
         return "hello3";
         //return "my name is " + studentProperties.getName() +"my age is " +studentProperties.getAge();
     }
+    @RequestMapping("/hello4")
+    public String hello4(){
+        return "hello4";
+        //return "my name is " + studentProperties.getName() +"my age is " +studentProperties.getAge();
+    }
 }
