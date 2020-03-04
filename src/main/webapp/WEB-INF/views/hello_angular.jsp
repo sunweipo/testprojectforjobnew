@@ -11,7 +11,7 @@
         <input ng-model="username">
         <span>{{username}}</span>
         <button ng-click="myupload()">
-            上传2
+            上传233
         </button>
         <span>
             dfdfd---{{data}}
