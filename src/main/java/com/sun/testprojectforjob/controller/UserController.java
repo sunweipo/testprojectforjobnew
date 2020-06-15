@@ -31,7 +31,6 @@ public class UserController {
         User user=studentService.getUser(username);
         System.out.println("==="+password+"==="+username);
         if (user ==null ){
-            System.out.println("==="+user.toString());
             return 2;
         }else{
             if(password.equals(user.getPassword())){
