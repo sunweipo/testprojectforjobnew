@@ -22,6 +22,7 @@ public class AisController {
     private StudentService studentService;
     @RequestMapping("/login")
     public String login(){
+        System.out.println(1);
         return "ais_login";
     }
     @RequestMapping("/angular")
